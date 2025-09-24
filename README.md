@@ -1,41 +1,99 @@
-# 🌐 Nagalakshmi Arevarapu – Portfolio  
+# Nagalakshmi Arevarapu | Portfolio
 
-This is my **personal portfolio website** showcasing my skills, education, projects, and achievements as a Software Developer.  
-It is built using **HTML, CSS, JavaScript, and Bootstrap 5**, with responsive design and modern UI elements.  
+Welcome to my personal portfolio! This portfolio showcases my skills, projects, education, achievements, and contact information as an aspiring Associate Software Developer.
 
+---
 
+## 🌟 About Me
 
-## 🚀 Features  
+I am a passionate and goal-driven IT graduate with a strong academic foundation and a keen interest in innovative software development. My technical skills include:
 
-- **Responsive Design** – Works seamlessly on desktop, tablet, and mobile devices.  
-- **Hero Section** – Professional introduction with profile image, resume link, GitHub, and LinkedIn.  
-- **About Me** – Brief introduction highlighting technical skills and career goals.  
-- **Skills Section** – Programming languages, frameworks, and tools displayed with icons.  
-- **Education Section** – Details of B.Tech, Diploma, and 10th Standard with CGPA/Points.  
-- **Projects Section** – Showcases real-world projects such as:  
-  - **PlantRx**: Medicinal Plant Identification System.  
-  - **Chat Application**: Real-time chat app with WebSocket and JWT security.  
-- **Achievements Section** – Internships, academic highlights, and project recognition.  
-- **Contact Section** – Email, phone, LinkedIn, GitHub, and a working contact form.  
-- **Footer** – Copyright with author name.  
+- **Programming Languages:** Java, Java 8, JavaScript  
+- **Frameworks:** Spring Boot, Spring MVC, Hibernate, Microservices, JDBC  
+- **Frontend Development:** HTML, CSS, React.js  
+- **Database Technologies:** MySQL  
+- **Tools & IDEs:** IntelliJ IDEA, Eclipse, VS Code, Maven, Git, GitHub, Postman  
+- **Methodologies:** Software Development Life Cycle (SDLC)
+
+I have hands-on experience in building responsive full-stack applications, creating REST APIs, integrating authentication systems, and optimizing databases. I am passionate about continuous learning and contributing to impactful software solutions.
 
 
 
-## 🛠️ Technologies Used  
+## 💻 Skills
 
-- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5  
-- **Icons**: Bootstrap Icons, Devicon  
-- **Form Handling**: [Formspree](https://formspree.io/) (for contact form)  
-- **Hosting**: GitHub Pages / Netlify / Vercel  
+- **Programming Languages:** Core Java, Java 8, JavaScript  
+- **Frameworks:** Spring Boot, Spring MVC, Hibernate, Microservices, JDBC  
+- **Frontend:** HTML, CSS, React.js  
+- **Databases:** MySQL  
+- **Tools:** IntelliJ IDEA, Eclipse, VS Code, Maven, Git, GitHub, Postman  
+- **Methodologies:** SDLC
 
 
 
-## 📂 Project Structure  
+## 🎓 Education
 
-```bash
-├── index.html          # Main portfolio page
-├── style.css           # Inline styling (inside HTML)
-├── /images             # Profile photo and other assets
-├── /icons              # Framework & skill icons (from CDN)
-└── README.md           # Project documentation
-"# Portfolio" 
+| Degree | Institution | Year | CGPA/Score |
+|--------|------------|------|------------|
+| B.Tech in Computer Science Engineering | Godavari Institute of Engineering and Technology, Rajahmundry | 2024 | 8.03 / 10 |
+| Diploma in Computer Science | A.A.N.M & V.V.R.S.R Polytechnic College, Gudlavalleru | 2021 | 75.3% |
+| 10th Standard | A.P Residential School, Musunuru | 2018 | 8.7 / 10 |
+
+
+
+## 🛠 Projects
+
+### PlantRx
+- Developed using Java and modern frameworks.
+- Implemented **image recognition algorithms** to identify medicinal plants.
+- Integrated **database management** for efficient retrieval of plant information.
+- Conducted **performance testing** to ensure accuracy and reliability.
+
+### Chat Application
+- Real-time chat app using Java, Spring Boot, and React.js.
+- Implemented **WebSocket communication** for instant messaging.
+- Integrated **JWT-based authentication** for secure access.
+- Designed a **responsive UI** and optimized backend services.
+
+
+
+## 🏆 Achievements
+
+- Java Full Stack Internship at **TECHWING** and **KODNEST**  
+- Top Project Performer, Final Year  
+- Completed **Java Full-Stack Development Course** by Prostack Academy  
+- Contributed to **Open Source Projects** on GitHub  
+- Participated in **Hackathons** and **Technical Fests**
+
+
+
+## 📫 Contact
+
+You can reach out to me via:
+
+- **Email:** [arevarapunagalakshmi@gmail.com](mailto:arevarapunagalakshmi@gmail.com)  
+- **Phone:** +91 9951087969  
+- **LinkedIn:** [linkedin.com/in/nagalakshmi7](https://www.linkedin.com/in/nagalakshmi7/)  
+- **GitHub:** [github.com/ArevarapuNagalakshmi](https://github.com/ArevarapuNagalakshmi)
+
+Or you can directly send a message through my [contact form](#).
+
+
+
+## 🔗 Portfolio
+
+Check out my live portfolio [here](#) to view all projects, skills, and achievements in a responsive and interactive web design.
+
+
+## ⚡ Technologies Used
+
+- HTML5, CSS3, JavaScript, React.js  
+- Java, Spring Boot, Hibernate  
+- MySQL  
+- Git & GitHub for version control  
+- Bootstrap 5 for responsive UI design  
+- Postman for API testing  
+
+
+## 📌 License
+
+This portfolio is for personal and professional use. Feel free to explore and reach out for collaboration or professional opportunities.
