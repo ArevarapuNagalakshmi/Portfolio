@@ -1,99 +1,80 @@
-# Nagalakshmi Arevarapu | Portfolio
+# 👩‍💻 Nagalakshmi Arevarapu | Portfolio
 
-Welcome to my personal portfolio! This portfolio showcases my skills, projects, education, achievements, and contact information as an aspiring Associate Software Developer.
-
----
-
-## 🌟 About Me
-
-I am a passionate and goal-driven IT graduate with a strong academic foundation and a keen interest in innovative software development. My technical skills include:
-
-- **Programming Languages:** Java, Java 8, JavaScript  
-- **Frameworks:** Spring Boot, Spring MVC, Hibernate, Microservices, JDBC  
-- **Frontend Development:** HTML, CSS, React.js  
-- **Database Technologies:** MySQL  
-- **Tools & IDEs:** IntelliJ IDEA, Eclipse, VS Code, Maven, Git, GitHub, Postman  
-- **Methodologies:** Software Development Life Cycle (SDLC)
-
-I have hands-on experience in building responsive full-stack applications, creating REST APIs, integrating authentication systems, and optimizing databases. I am passionate about continuous learning and contributing to impactful software solutions.
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArevarapuNagalakshmi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nagalakshmi7/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arevarapunagalakshmi@gmail.com)
 
 
 
-## 💻 Skills
+## 🔹 About Me
+I am a passionate **Associate Software Developer** and a fresher with strong expertise in **full-stack development**.  
+I love building responsive, scalable, and efficient web applications using modern technologies.  
 
-- **Programming Languages:** Core Java, Java 8, JavaScript  
-- **Frameworks:** Spring Boot, Spring MVC, Hibernate, Microservices, JDBC  
+**Technical Skills:**
+- **Languages:** Java, Java 8, JavaScript  
+- **Frameworks:** Spring Boot, Spring MVC, Hibernate, Microservices, JDBC 
 - **Frontend:** HTML, CSS, React.js  
-- **Databases:** MySQL  
-- **Tools:** IntelliJ IDEA, Eclipse, VS Code, Maven, Git, GitHub, Postman  
-- **Methodologies:** SDLC
+- **Database:** MySQL  
+- **Tools & IDEs:** IntelliJ IDEA, Eclipse, VS Code, Maven, Git, GitHub, Postman  
+- **Methodologies:** SDLC  
+
+
+
+## 💻 Projects
+
+### **PlantRx**
+- Identifies medicinal plants using **image recognition algorithms**.  
+- Built with **Java**, integrated **database management**, and optimized for **accuracy & performance**.
+
+### **Chat Application**
+- **Real-time messaging** app using Java, Spring Boot, and React.js.  
+- Integrated **WebSocket communication** and **JWT authentication** for secure access.  
+- Designed **responsive UI** and optimized backend services.
 
 
 
 ## 🎓 Education
 
-| Degree | Institution | Year | CGPA/Score |
-|--------|------------|------|------------|
+| Degree | Institution | Year | CGPA / Score |
+|--------|------------|------|--------------|
 | B.Tech in Computer Science Engineering | Godavari Institute of Engineering and Technology, Rajahmundry | 2024 | 8.03 / 10 |
-| Diploma in Computer Science | A.A.N.M & V.V.R.S.R Polytechnic College, Gudlavalleru | 2021 | 75.3% |
+| Diploma in Computer Science | A.A.N.M & V.V.R.S.R Polytechnic College, Gudlavalleru | 2021 | 75.3 / 100 |
 | 10th Standard | A.P Residential School, Musunuru | 2018 | 8.7 / 10 |
 
 
 
-## 🛠 Projects
-
-### PlantRx
-- Developed using Java and modern frameworks.
-- Implemented **image recognition algorithms** to identify medicinal plants.
-- Integrated **database management** for efficient retrieval of plant information.
-- Conducted **performance testing** to ensure accuracy and reliability.
-
-### Chat Application
-- Real-time chat app using Java, Spring Boot, and React.js.
-- Implemented **WebSocket communication** for instant messaging.
-- Integrated **JWT-based authentication** for secure access.
-- Designed a **responsive UI** and optimized backend services.
-
-
-
 ## 🏆 Achievements
-
 - Java Full Stack Internship at **TECHWING** and **KODNEST**  
 - Top Project Performer, Final Year  
 - Completed **Java Full-Stack Development Course** by Prostack Academy  
-- Contributed to **Open Source Projects** on GitHub  
-- Participated in **Hackathons** and **Technical Fests**
+- Contributed to **Open Source Projects on GitHub**  
 
 
 
-## 📫 Contact
-
-You can reach out to me via:
-
+## 📫 Contact Me
 - **Email:** [arevarapunagalakshmi@gmail.com](mailto:arevarapunagalakshmi@gmail.com)  
-- **Phone:** +91 9951087969  
+- **Phone:** [+91 9951087969](tel:+919951087969)  
 - **LinkedIn:** [linkedin.com/in/nagalakshmi7](https://www.linkedin.com/in/nagalakshmi7/)  
-- **GitHub:** [github.com/ArevarapuNagalakshmi](https://github.com/ArevarapuNagalakshmi)
-
-Or you can directly send a message through my [contact form](#).
+- **GitHub:** [github.com/ArevarapuNagalakshmi](https://github.com/ArevarapuNagalakshmi)  
 
 
 
-## 🔗 Portfolio
-
-Check out my live portfolio [here](#) to view all projects, skills, and achievements in a responsive and interactive web design.
-
-
-## ⚡ Technologies Used
-
-- HTML5, CSS3, JavaScript, React.js  
-- Java, Spring Boot, Hibernate  
-- MySQL  
-- Git & GitHub for version control  
-- Bootstrap 5 for responsive UI design  
-- Postman for API testing  
+## 📄 Resume
+[Download Resume](Nagalakshmi Arevarapu RESUME -4.pdf)
 
 
-## 📌 License
 
-This portfolio is for personal and professional use. Feel free to explore and reach out for collaboration or professional opportunities.
+## ⚡ Tech Stack
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+
+
+*© 2025 Nagalakshmi Arevarapu. All Rights Reserved.*
