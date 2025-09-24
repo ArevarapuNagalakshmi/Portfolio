@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Nagalakshmi Arevarapu, Software Developer skilled in Java, Spring Boot, React, and full-stack development.">
+  <title>Nagalakshmi Arevarapu | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body { scroll-behavior: smooth; }
+
+    /* Hero */
+    .hero {
+      height: 100vh;
+      background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('passport (1).jpg') center/cover no-repeat;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      color: white; text-align: center; padding: 20px;
+    }
+    .hero h1 { font-size: 3rem; font-weight: bold; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 1.5rem; }
+
+    /* Section Titles */
+    .section-title { font-weight: bold; font-size: 2rem; text-align: center; margin-bottom: 2rem; position: relative; }
+    .section-title::after { content: ''; width: 60px; height: 4px; background: #007bff; display: block; margin: 0.5rem auto; border-radius: 2px; }
+
+    /* Glass Cards */
+    .glass-card { background: rgba(255,255,255,0.2); border-radius: 15px; padding: 1.5rem; color: white; backdrop-filter: blur(8px); transition: transform 0.3s, box-shadow 0.3s; }
+    .glass-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
+
+    /* Skill badges */
+    .skill-badge { background: #007bff; color: white; padding: 0.6rem 1rem; margin: 0.2rem; border-radius: 20px; font-weight: 500; display: inline-block; }
+
+    /* Footer */
+    footer { background: #212529; color: white; text-align: center; padding: 1rem 0; }
+
+    /* Contact hover effects */
+    .social-icon:hover { color: #ffd700 !important; transform: scale(1.2); transition: all 0.3s ease; }
+    form .form-control:focus { box-shadow: 0 0 8px rgba(0,123,255,0.5); border-color: #007bff; }
+    form button:hover { background-color: #0056b3; transform: scale(1.05); transition: all 0.3s ease; }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav text-center">
+        <li class="nav-item px-3"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item px-3"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item px-3"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item px-3"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item px-3"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item px-3"><a class="nav-link" href="#achievements">Achievements</a></li>
+        <li class="nav-item px-3"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero text-center d-flex align-items-center">
+  <div class="container">
+    <img src="photo.jpg" alt="Nagalakshmi Arevarapu" class="rounded-circle shadow mb-4" style="width:180px;height:180px;object-fit:cover;border:4px solid white;">
+    <h1 class="fw-bold mb-2">Nagalakshmi</h1>
+    <h4 class="mb-3">Software Developer</h4>
+    <p class="lead mb-4">Enthusiastic fresher with a strong foundation in full-stack development, eager to apply knowledge to real-world projects and deliver impactful solutions.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+  <a href="https://github.com/ArevarapuNagalakshmi" target="_blank" 
+     class="btn" style="background-color: #f0f0f0; color: #333; border: 1px solid #ccc;">
+    <i class="bi bi-github"></i> GitHub
+  </a>
+  
+  <a href="https://www.linkedin.com/in/nagalakshmi7/" target="_blank" 
+     class="btn" style="background-color: #e6f7ff; color: #0077b5; border: 1px solid #0077b5;">
+    <i class="bi bi-linkedin"></i> LinkedIn
+  </a>
+  
+  <a href="Nagalakshmi Arevarapu RESUME -4.pdf" target="_blank" 
+     class="btn" style="background-color: #fff4e6; color: #ff9900; border: 1px solid #ff9900;">
+    <i class="bi bi-file-earmark-person"></i> Resume
+  </a>
+</div>
+
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <p class="text-justify">
+I am a passionate and goal-driven IT graduate with a strong academic foundation and a keen interest in innovative software development.My technical skills include Java, Java 8, Spring Boot, Microservices, MySQL, HTML, CSS, JavaScript, and React, which allow me to design and implement full-stack applications that are efficient, scalable, and user-friendly.
+I have hands-on experience in optimizing databases, crafting responsive interfaces, and deploying applications using modern tools like Docker, Git, and Maven. I am also skilled in creating REST APIs, integrating authentication systems, and ensuring secure and reliable application performance.
+
+With a strong problem-solving mindset and a dedication to continuous learning, I aim to contribute to forward-thinking organizations by delivering high-quality software solutions, collaborating effectively in teams, and staying updated with emerging technologies in the IT industry.        </p>
+        <p class="text-justify">
+          I am eager to contribute my skills, creativity, and dedication to a forward-thinking organization where I can help build
+          impactful solutions while advancing my professional growth.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Skills</h2>
+
+    <!-- Languages -->
+    <h4 class="text-center fw-bold mb-4">Languages</h4>
+    <div class="row justify-content-center g-4">
+      <!-- Java -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color: #d6d6d6; border-radius: 12px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="Java">
+          <div class="card-body p-2"><h6 class="card-title mt-2">Java</h6></div>
+        </div>
+      </div>
+      <!-- MySQL -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color: #d6d6d6; border-radius: 12px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="MySQL">
+          <div class="card-body p-2"><h6 class="card-title mt-2">MySQL</h6></div>
+        </div>
+      </div>
+      <!-- HTML -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color: #d6d6d6; border-radius: 12px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="HTML">
+          <div class="card-body p-2"><h6 class="card-title mt-2">HTML</h6></div>
+        </div>
+      </div>
+      <!-- CSS -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color: #d6d6d6; border-radius: 12px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="CSS">
+          <div class="card-body p-2"><h6 class="card-title mt-2">CSS</h6></div>
+        </div>
+      </div>
+      <!-- JavaScript -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color: #d6d6d6; border-radius: 12px; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="JavaScript">
+          <div class="card-body p-2"><h6 class="card-title mt-2">JavaScript</h6></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frameworks & Libraries -->
+    <h4 class="text-center fw-bold mt-5 mb-4">Frameworks & Libraries</h4>
+    <div class="row justify-content-center g-4">
+      <!-- Spring Boot -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color:#d6d6d6;border-radius:12px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="Spring Boot">
+          <div class="card-body p-2"><h6 class="card-title mt-2">Spring Boot</h6></div>
+        </div>
+      </div>
+      <!-- Microservices -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color:#d6d6d6;border-radius:12px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn-icons-png.flaticon.com/512/3159/3159331.png" class="card-img-top mx-auto mt-3" style="width:60px;" alt="Microservices">
+          <div class="card-body p-2"><h6 class="card-title mt-2">Microservices</h6></div>
+        </div>
+      </div>
+      <!-- REST APIs -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color:#d6d6d6;border-radius:12px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn-icons-png.flaticon.com/512/2620/2620965.png" class="card-img-top mx-auto mt-3" style="width:60px;" alt="REST APIs">
+          <div class="card-body p-2"><h6 class="card-title mt-2">REST APIs</h6></div>
+        </div>
+      </div>
+      <!-- Hibernate -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color:#d6d6d6;border-radius:12px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="Hibernate">
+          <div class="card-body p-2"><h6 class="card-title mt-2">Hibernate</h6></div>
+        </div>
+      </div>
+      <!-- React.js -->
+      <div class="col-6 col-md-3">
+        <div class="card text-center border-0" style="background-color:#d6d6d6;border-radius:12px;box-shadow:0 4px 6px rgba(0,0,0,0.1);">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="card-img-top mx-auto mt-3" style="width:60px;" alt="React.js">
+          <div class="card-body p-2"><h6 class="card-title mt-2">React.js</h6></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="py-5" style="background-color: #f8f9fa;">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Education</h2>
+    <div class="row justify-content-center g-4">
+
+      <!-- B.Tech -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center border-0 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-mortarboard-fill fs-1 text-primary mb-3"></i>
+            <h5 class="card-title">B.Tech in Computer Science Engineering</h5>
+            <p class="card-text mb-1"><strong>Godavari Institute of Engineering and Technology</strong>, Rajahmundry</p>
+            <p class="card-text text-muted">Graduation Year: 2024 </p>
+             <p class="card-text"><strong>CGPA:</strong> 8.03 / 10</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diploma -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center border-0 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-book-fill fs-1 text-success mb-3"></i>
+            <h5 class="card-title">Diploma in Computer Science</h5>
+            <p class="card-text mb-1"><strong>A.A.N.M & V.V.R.S.R Polytechnic College</strong>, Gudlavalleru</p>
+            <p class="card-text text-muted">Completed: 2021</p>
+             <p class="card-text"><strong>CGPA:</strong> 75.3 / 10</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10th -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center border-0 shadow-sm">
+          <div class="card-body">
+            <i class="bi bi-journal-check fs-1 text-warning mb-3"></i>
+            <h5 class="card-title">10th Standard</h5>
+            <p class="card-text mb-1"><strong>A.P Residential School</strong>, Musunuru</p>
+            <p class="card-text text-muted">Completed: 2018</p>
+             <p class="card-text"><strong>POINTS:</strong> 8.7 / 10</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects -->
+<section id="projects" class="py-5" style="background-color: #e9ecef; color: #000;">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Projects</h2>
+    <div class="row">
+      <!-- PlantRx -->
+      <div class="col-md-6 mb-4">
+        <div class="glass-card p-4 h-100" style="background-color: #ffffff; color: #000;">
+          <h5 class="mb-3">PlantRx: Harnessing Technology for Medicinal Plant Identification</h5>
+          <p>
+            Developed <strong>PlantRx</strong> using Java and modern frameworks.<br>
+            Implemented <strong>image recognition algorithms</strong> to identify medicinal plants.<br>
+            Integrated <strong>database management</strong> for efficient retrieval of plant info.<br>
+            Conducted <strong>performance testing</strong> to ensure accuracy and reliability.
+          </p>
+        </div>
+      </div>
+      <!-- Chat App -->
+      <div class="col-md-6 mb-4">
+        <div class="glass-card p-4 h-100" style="background-color: #ffffff; color: #000;">
+          <h5 class="mb-3">Chat Application</h5>
+          <p>
+            Developed a <strong>real-time chat application</strong> using Java, Spring Boot, and React.js.<br>
+            Implemented <strong>WebSocket communication</strong> for instant messaging.<br>
+            Integrated <strong>JWT-based authentication</strong> for secure access.<br>
+            Designed <strong>responsive UI</strong> and optimized backend services.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements" class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">Achievements</h2>
+    <ul class="list-group mx-auto" style="max-width:700px;">
+      <li class="list-group-item">Java Programming Internship at TECHWING</li>
+      <li class="list-group-item">Top Project Performer, Final Year</li>
+      <li class="list-group-item">Multiple Academic and Personal Development Projects</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5 text-center text-white" style="background: linear-gradient(135deg,#007bff,#00bfff);">
+  <div class="container">
+    <h2 class="section-title mb-5">Contact Me</h2>
+    <div class="mb-4">
+      <a href="mailto:gayathrisingh810@gmail.com" class="text-white me-3 social-icon"><i class="bi bi-envelope-fill fs-3"></i></a>
+      <a href="tel:+918106909276" class="text-white me-3 social-icon"><i class="bi bi-telephone-fill fs-3"></i></a>
+      <a href="https://www.linkedin.com/in/nagalakshmi7/" class="text-white me-3 social-icon"><i class="bi bi-linkedin fs-3"></i></a>
+      <a href="https://github.com/ArevarapuNagalakshmi" class="text-white social-icon"><i class="bi bi-github fs-3"></i></a>
+    </div>
+
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/your_form_id" method="POST" class="mx-auto p-4 rounded shadow" style="max-width: 600px; background-color: rgba(255,255,255,0.9); color: #000;">
+      <div class="mb-3 text-start">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" name="name" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3 text-start">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="_replyto" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3 text-start">
+        <label for="message" class="form-label">Message</label>
+        <textarea name="message" class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Nagalakshmi Arevarapu. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Active navbar link on scroll
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 90;
+      if (pageYOffset >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+</body>
+</html>
